@@ -1,0 +1,116 @@
+/* -- sign up today section code --  */
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-warning:hover {
+  color: white;
+}
+
+.btn-outline-warning {
+  border-width: 2px;
+  color: #ffc107;
+}
+
+/* -- video section code -- */
+.video-box {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.play-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  color: #ddd;
+}
+.nav-tabs {
+  border-bottom: 0 !important;
+}
+.nav-tabs .nav-link.active {
+  background-color: transparent !important;
+  color: #eb7150 !important;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+}
+
+.nav-tabs .nav-link {
+  background-color: transparent;
+  border: none !important;
+  font-size: 20px;
+  margin-right: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: #fff !important;
+}
+
+.list-unstyled li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+/* -- how it works -- */
+.card {
+  background-color: #f5faff;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-large {
+  font-size: 2rem;
+  color: #ff6347; /* Customize the color for icons */
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+/* -- footer -- */
+.footer-bg {
+  background-color: #123557;
+}
+.footer-bg ul,
+li {
+  list-style-type: none;
+}
+.footer-bg ul li,
+a,
+p {
+  color: #fff;
+  text-decoration: none;
+}
+.divider {
+  border-color: #808080;
+}
+
+@media (max-width: 576px) {
+  .btn-res {
+    margin-bottom: 20px;
+  }
+}

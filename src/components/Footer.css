@@ -1,0 +1,16 @@
+.footer-bg {
+  background-color: #123557;
+}
+.footer-bg ul,
+li {
+  list-style-type: none;
+}
+.footer-bg ul li,
+a,
+p {
+  color: #fff;
+  text-decoration: none;
+}
+.divider {
+  border-color: #808080;
+}
